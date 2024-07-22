@@ -12,7 +12,11 @@ const Login = () => {
       <div id="bgcimg-1">
         <img src={bgimg} alt="No" />
       </div>
+<<<<<<< HEAD
       
+=======
+      
+>>>>>>> be8a9ab33f30553055375866c011a6c21e245e58
     </div>
   );
 };
