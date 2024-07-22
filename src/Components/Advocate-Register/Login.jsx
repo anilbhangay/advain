@@ -12,9 +12,7 @@ const Login = () => {
       <div id="bgcimg-1">
         <img src={bgimg} alt="No" />
       </div>
-       <form>
-          
-       </form>
+      
     </div>
   );
 };
