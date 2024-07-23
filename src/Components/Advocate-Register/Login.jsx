@@ -6,10 +6,14 @@ import "./Login.css";
 
 const Login = () => {
 
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(null);
    
-  const handleClick = () => {
-    setIsActive(!isActive);
+  const handleloginClick = () => {
+    setIsActive('login');
+  };
+  
+  const handleregisterClick = () => {
+     setIsActive('register');
   };
 
   return (
@@ -23,8 +27,9 @@ const Login = () => {
         <div className="login-form-container">
           <form>
             <div className="form-header">
-            <Link to='/' id="link-1"><label>LOGIN</label></Link>
-             <Link to='/' id="link-1"><label>REGISTER</label></Link>
+            <Link to='/' id="link-1"><label className={`login-text ${isActive === 'login' ? 'active' : ''}`} onClick={handleloginClick}>LOGIN</label></Link>
+
+             <Link to='/' id="link-1"><label className={`register-text ${isActive === 'register' ? 'active' : ''}`} onClick={handleregisterClick}>REGISTER</label></Link>
             </div>
             <div className="form-input">
               <p>User ID</p>
