@@ -15,8 +15,8 @@ const Login = () => {
         <div className="login-form-container">
           <form>
             <div className="form-header">
-            <h3>LOGIN</h3>
-             <h3>REGISTER</h3>
+            <h4>LOGIN</h4>
+             <h4>REGISTER</h4>
             </div>
             <div className="form-input">
               <p>User ID</p>
