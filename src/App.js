@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import Login from './Components/Advocate-Register/Login';
+import { BrowserRouter} from 'react-router-dom';
 
 
 const App = () => {
   
   return (
-
-     <Login />
+    <BrowserRouter>
+      <Login />
+    </BrowserRouter>
+    
   );
 }
 

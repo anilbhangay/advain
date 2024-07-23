@@ -24,8 +24,33 @@
 }
 
 .login-form-container .form-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.form-header label {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Lora;
+  line-height: 23px;
+  cursor: pointer;
+  color: #000;
+}
+
+.form-header #link-1 {
+  text-decoration: none;
+}
+
+.form-header label:hover {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.form-header label:active {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
 }

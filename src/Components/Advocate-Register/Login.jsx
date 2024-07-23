@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom'; 
 import bgimg from "../../Assets/Backgrdimage.png";
 import logov1 from "../../Assets/LogoV1.png";
 import "./Login.css";
 
 const Login = () => {
+
+  const [isActive, setIsActive] = useState(false);
+   
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <div className="container">
       <div id="logo-1">
@@ -15,8 +23,8 @@ const Login = () => {
         <div className="login-form-container">
           <form>
             <div className="form-header">
-            <h4>LOGIN</h4>
-             <h4>REGISTER</h4>
+            <Link to='/' id="link-1"><label>LOGIN</label></Link>
+             <Link to='/' id="link-1"><label>REGISTER</label></Link>
             </div>
             <div className="form-input">
               <p>User ID</p>
