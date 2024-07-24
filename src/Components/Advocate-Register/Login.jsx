@@ -71,11 +71,11 @@ const Login = () => {
             <button type="submit" id="login-button">
               Login
             </button>
-            <p id="space">---- OR ----</p>
+            <p id="space">----------- OR -----------</p>
             <button type="submit" id="otp-button">
               Login with OTP
             </button>
-            <h4 id="advo-name">ADVOCATE LOGIN</h4>
+            <h5 id="advo-name">ADVOCATE LOGIN</h5>
           </div>
         </form>
       </div>

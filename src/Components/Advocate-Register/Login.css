@@ -28,9 +28,11 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  margin-bottom: 23px;
 }
 
-.form-header .login-text, .register-text {
+.form-header .login-text,
+.register-text {
   font-size: 18px;
   font-weight: 400;
   font-family: Lora;
@@ -43,8 +45,104 @@
   text-decoration: none;
 }
 
-.form-header .login-text.active, .register-text.active  {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
+.form-header .login-text.active,
+.register-text.active {
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: underline;
 }
+
+.form-input p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Lora;
+  letter-spacing: 1px;
+  line-height: 3px;
+  color: #fff;
+}
+
+.form-input input {
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.form-input input::placeholder {
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.form-links-login h4 {
+  padding-left: 110px;
+  margin-top: 8px;
+}
+
+.form-links-login h4 a {
+  font-size: 14px;
+  font-family: Lora;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.form-links-login #login-button {
+  width: 220px;
+  height: 40px;
+  margin-top: -8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-links-login #otp-button {
+  width: 220px;
+  height: 40px;
+  margin-top: -8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-links-login button {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lora';
+  letter-spacing: 1px;
+  background: var(--StandBlue, rgba(0, 93, 170, 1));
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.form-links-login p {
+  width: 220px;
+  height: 19px;
+}
+
+.form-links-login #space {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lora';
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.form-links-login #advo-name {
+  width: 171px;
+  height: 2px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.form-links-login h5 {
+  font-size: 18px;
+  font-family: 'Lora';
+  font-weight: 700;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+
