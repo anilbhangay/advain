@@ -11,16 +11,18 @@
 
 .login-form-container {
   width: 290px;
-  height: auto;
+  height: 412px;
   position: absolute;
   top: 150px;
-  left: 375px;
-  border: none;
-  border-radius: 11px;
+  left: 340px;
+  border: 0px, 0px, 4px, 0px;
+  border-bottom: 5px solid var(--StandBlue, #005DAA);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.65);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(146, 163, 175);
+  background: rgba(0, 93, 170, 0.2);
 }
 
 .login-form-container .form-header {
@@ -75,6 +77,7 @@
   font-size: 14px;
   font-weight: 300;
   font-family: "Roboto";
+  color: #000;
 }
 
 .form-links-login h4 {
