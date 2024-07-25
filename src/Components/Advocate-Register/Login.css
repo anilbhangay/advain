@@ -1,15 +1,17 @@
 .container  #bgcimg-1 img {
   width: 100%;
-  height: 641px;
+  height: 100dvh;
   background: #FFF;
+  margin-bottom: 0px;
 }
 
 .container #logo-1 {
+  width: 140px;
+  height: 74px;
   position: absolute;
   top: 28px;
-  left: 78px;
+  left: 80px;
 }
-
 
 #login-register-form .login-form-container-1 {
   width: 290px;
@@ -166,10 +168,7 @@
 
 .form-links-login p {
   width: 220px;
-  height: 19px;
-}
-
-.form-links-login #space {
+  height: 20px;
   font-size: 14px;
   font-weight: 700;
   font-family: 'Lora';

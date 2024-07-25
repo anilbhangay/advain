@@ -81,7 +81,7 @@ const Login = () => {
             <button type="submit" id="login-button">
               Login
             </button>
-            <p id="space">----------- OR -----------</p>
+            <p className="space">---------------- OR ----------------</p>
             <button type="submit" id="otp-button">
               Login with OTP
             </button>
@@ -137,7 +137,7 @@ const Login = () => {
             <button type="submit" id="login-button">
               Login
             </button>
-            <p id="space">----------- OR -----------</p>
+            <p className="space">---------------- OR ----------------</p>
             <button type="submit" id="otp-button">
               Login with OTP
             </button>
