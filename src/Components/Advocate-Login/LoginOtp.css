@@ -1,0 +1,190 @@
+#login-register-form .login-form-container-1 {
+    width: 280px;
+    height: 406px;
+    position: absolute;
+    top: 156px;
+    left: 315px;
+    border: 0px, 0px, 4px, 0px;
+    border-bottom: 5px solid var(--StandBlue, #005DAA);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 93, 170, 0.2);
+  }
+  
+  #login-register-form .login-form-container-2 {
+    width: 280px;
+    height: 406px;
+    position: absolute;
+    top: 156px;
+    left: 786px;
+    border: 0px, 0px, 4px, 0px;
+    border-bottom: 5px solid var(--StandBlue, #005DAA);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 93, 170, 0.2);
+  }
+  
+  
+   .form-header {
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 23px;
+  }
+  
+  .form-header .login-text,
+  .register-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Lora;
+    line-height: 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  .form-header .login-text-1,
+  .register-text-1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Lora;
+    line-height: 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .form-header #link-1 {
+    text-decoration: none;
+  }
+  
+  .form-header #link-2 {
+    text-decoration: none;
+  }
+  
+  .form-header .login-text.active,
+  .register-text.active {
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .form-header .login-text-1.active,
+  .register-text-1.active {
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .form-input p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Lora;
+    letter-spacing: 1px;
+    line-height: 3px;
+    color: #fff;
+  }
+  
+  .form-input input {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.65);
+  }
+  
+  .form-input input::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: #000;
+  }
+  
+  .form-links-login h4 {
+    padding-left: 110px;
+    margin-top: 8px;
+  }
+  
+  .form-links-login h4 a {
+    font-size: 14px;
+    font-family: Lora;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .form-links-login #login-button {
+    width: 220px;
+    height: 40px;
+    margin-top: -8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .form-links-login #otp-button {
+    width: 220px;
+    height: 40px;
+    margin-top: -8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .form-links-login button {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lora';
+    letter-spacing: 1px;
+    background: var(--StandBlue, rgba(0, 93, 170, 1));
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  
+  .form-links-login p {
+    width: 220px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lora';
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .form-links-login #advo-name {
+    width: 171px;
+    height: 1px;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  
+  .form-links-login #advo-name-1 {
+    width: 171px;
+    height: 1px;
+    text-align: center;
+    padding-left: 24px;
+    font-size: 18px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+  
+  

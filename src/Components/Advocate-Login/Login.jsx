@@ -84,9 +84,12 @@ const Login = () => {
                 Login
               </button>
               <p className="space">---------------- OR ----------------</p>
-            <Link to='/LoginOtp'><button type="submit" id="otp-button">
+            {/* <Link to='/LoginOtp'><button type="submit" id="otp-button">
                 Login with OTP
-              </button></Link>
+              </button></Link> */}
+              <button type="submit" id="otp-button">
+                Login with OTP
+              </button>
               <h5 id="advo-name">ADVOCATE LOGIN</h5>
             </div>
           </form>
