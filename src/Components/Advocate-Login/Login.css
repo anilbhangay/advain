@@ -14,8 +14,8 @@
 }
 
 #login-register-form .login-form-container-1 {
-  width: 290px;
-  height: 412px;
+  width: 280px;
+  height: 406px;
   position: absolute;
   top: 156px;
   left: 315px;
@@ -30,8 +30,8 @@
 }
 
 #login-register-form .login-form-container-2 {
-  width: 290px;
-  height: 412px;
+  width: 280px;
+  height: 406px;
   position: absolute;
   top: 156px;
   left: 786px;
@@ -118,7 +118,7 @@
 }
 
 .form-input input::placeholder {
-  padding-left: 12px;
+  padding-left: 14px;
   font-size: 14px;
   font-weight: 300;
   font-family: "Roboto";
