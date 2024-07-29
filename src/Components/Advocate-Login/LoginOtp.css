@@ -1,4 +1,4 @@
-#login-register-form .login-form-container-1 {
+#login-register-form .login-form-container-3 {
     width: 280px;
     height: 406px;
     position: absolute;
@@ -11,20 +11,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: rgba(0, 93, 170, 0.2);
   }
   
 
-   .form-header {
+   .form-header-3 {
     width: 195px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5px;
-    margin-bottom: 20px;
+    padding-left: 30px;
+    margin-top: -85px;
   }
   
-  .form-header .login-text,
+  .form-header-3 .login-text,
   .register-text {
     font-size: 18px;
     font-weight: 400;
@@ -36,12 +37,12 @@
   }
   
  
-  .form-header #link-1 {
+  .form-header-3 #link-1 {
     text-decoration: none;
   }
   
   
-  .form-header .login-text.active,
+  .form-header-3 .login-text.active,
   .register-text.active {
     font-size: 19px;
     font-weight: 700;

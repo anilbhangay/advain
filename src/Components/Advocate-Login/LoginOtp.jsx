@@ -16,9 +16,9 @@ const LoginOtp = () => {
 
   return (
       <div id="login-register-form">
-        <div className="login-form-container-1">
+        <div className="login-form-container-3">
           <form>
-            <div className="form-header">
+            <div className="form-header-3">
               <Link to="/" id="link-1">
                 <label
                   className={`login-text ${
