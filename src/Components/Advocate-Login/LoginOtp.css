@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     background: rgba(0, 93, 170, 0.2);
   }
   
@@ -50,7 +50,7 @@
   }
   
   
-  .form-input p {
+  .form-input-3 p {
     font-size: 14px;
     font-weight: 600;
     font-family: Lora;
@@ -59,7 +59,7 @@
     color: #fff;
   }
   
-  .form-input input {
+  .form-input-3 input {
     width: 220px;
     height: 40px;
     border: none;
@@ -68,14 +68,32 @@
     background: rgba(255, 255, 255, 0.65);
   }
   
-  .form-input input::placeholder {
+  .form-input-3 input::placeholder {
     padding-left: 14px;
     font-size: 14px;
     font-weight: 300;
     font-family: "Roboto";
     color: #000;
   }
+
+  .form-input-3 #gotp-btn {
+    width: 220px;
+    height: 40px;
+    margin-top: -8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
   
+  .form-input-3 button {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lora';
+    letter-spacing: 1px;
+    background: var(--StandBlue, rgba(0, 93, 170, 1));
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
   
   .form-links-login #login-button {
     width: 220px;
