@@ -20,8 +20,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 35px;
-    margin-top: -79px;
+    padding-left: 32px;
+    margin-top: -76px;
   }
   
   .form-header-3 .login-text,
@@ -49,7 +49,7 @@
   }
 
   .form-container {
-    padding-left: 35px;
+    padding-left: 32px;
     padding-top: 10px;
   }
   
@@ -83,10 +83,14 @@
   .form-input-3 #gotp-btn {
     width: 220px;
     height: 40px;
-    margin-top: -8px;
+    margin-top: 10px;
     border: none;
     border-radius: 4px;
     outline: none;
+  }
+
+  #form-2 {
+    padding-top: 20px;
   }
   
   .form-input-3 button {
@@ -99,17 +103,17 @@
     cursor: pointer;
   }
   
-  .form-links-login #login-button {
+  .form-link-login #login-btn {
     width: 220px;
     height: 40px;
-    margin-top: -8px;
     border: none;
     border-radius: 4px;
     outline: none;
+    margin-top: 10px;
   }
   
- 
-  .form-links-login button {
+
+  .form-link-login button {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Lora';
@@ -120,17 +124,22 @@
   }
 
   
-  .form-links-login #advo-name {
+  .form-link-login #advo-name {
     width: 171px;
     height: 1px;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 17px;
     font-size: 18px;
     font-family: 'Lora';
     font-weight: 700;
-    line-height: 23px;
+    line-height: 24px;
     color: rgba(0, 0, 0, 1);
     cursor: pointer;
+  }
+
+  .form-link-login h5 {
+    position: absolute;
+    bottom: -8px;
   }
   
 

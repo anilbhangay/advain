@@ -45,13 +45,13 @@ const LoginOtp = () => {
             <div className="form-input-3">
               <p>User ID</p>
               <input
-                type="number"
+                type="text"
                 name="number"
                 placeholder="Enter 10-digit Mobile no.*"
               />
               <button id="gotp-btn" type="submit">Generate Otp</button>
             </div>
-            <div className="form-input-3">
+            <div className="form-input-3" id="form-2">
               <p>One Time Password</p>
               <input
                 type="text"
@@ -59,8 +59,8 @@ const LoginOtp = () => {
                 placeholder="Enter 6-digit OTP*"
               />
             </div>
-            <div className="form-links-login">
-              <button type="submit" id="login-button">
+            <div className="form-link-login">
+              <button type="submit" id="login-btn">
                 Login
               </button>
               <h5 id="advo-name">ADVOCATE LOGIN</h5>
