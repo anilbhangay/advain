@@ -41,6 +41,7 @@ const LoginOtp = () => {
                 </label>
               </Link>
             </div>
+            <div className="form-container">
             <div className="form-input-3">
               <p>User ID</p>
               <input
@@ -63,6 +64,7 @@ const LoginOtp = () => {
                 Login
               </button>
               <h5 id="advo-name">ADVOCATE LOGIN</h5>
+              </div>
             </div>
           </form>
         </div>
