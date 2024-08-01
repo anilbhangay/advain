@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './LoginOtp.css';
+import Newpassword from "./Newpassword";
 
 
 const LoginOtp = () => {
   const [isActive, setIsActive] = useState(null);
+  const [showNewpassword, setShowNewpassword] = useState(false);
+
 
   const handleloginClick = () => {
     setIsActive("login");
@@ -14,8 +17,16 @@ const LoginOtp = () => {
     setIsActive("register");
   };
 
+  const handleLoginOtpClick = () => {
+    setShowNewpassword(true);
+  };
+
   return (
       <div id="login-register-form">
+         {showNewpassword ?  (
+           <Newpassword />
+        ) : (
+         <> 
         <div className="login-form-container-3">
           <form>
             <div className="form-header-3">
@@ -60,7 +71,7 @@ const LoginOtp = () => {
               />
             </div>
             <div className="form-link-login">
-              <button type="submit" id="login-btn">
+              <button type="submit" id="login-btn" onClick={handleLoginOtpClick}>
                 Login
               </button>
               <h5 id="advoc-name">ADVOCATE LOGIN</h5>
@@ -68,6 +79,8 @@ const LoginOtp = () => {
             </div>
           </form>
         </div>
+        </>
+        )}
       </div>
 
   );

@@ -5,9 +5,7 @@ import './Newpassword.css';
 
 const Newpassword = () => {
   const [isActive, setIsActive] = useState(null);
-  const [showNewpassword, setShow] = useState(false);
-
-
+  
   const handleloginClick = () => {
     setIsActive("login");
   };
