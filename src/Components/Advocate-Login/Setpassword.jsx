@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Newpassword.css';
-import Setpassword from "./Setpassword";
+import './Setpassword.css';
 
 
-const Newpassword = () => {
+const Setpassword = () => {
   const [isActive, setIsActive] = useState(null);
-  const [showSetpassword, setShowSetpassword] = useState(false);
-
-
+  
   const handleloginClick = () => {
     setIsActive("login");
   };
@@ -17,19 +14,11 @@ const Newpassword = () => {
     setIsActive("register");
   };
 
-  const handleGenerateClick = () => {
-    setShowSetpassword(true);
-  };
-
   return (
       <div id="login-register-form">
-          {showSetpassword ?  (
-           <Setpassword />
-        ) : (
-         <> 
-        <div className="login-form-container-4">
+        <div className="login-form-container-5">
           <form>
-            <div className="form-header-4">
+            <div className="form-header-5">
               <Link to="/" id="link-1">
                 <label
                   className={`login-text ${
@@ -52,8 +41,8 @@ const Newpassword = () => {
                 </label>
               </Link>
             </div>
-            <div className="form-container-4">
-            <div className="form-input-4">
+            <div className="form-container-5">
+            <div className="form-input-5">
               <p>User ID</p>
               <input
                 type="email"
@@ -61,35 +50,26 @@ const Newpassword = () => {
                 placeholder="Enter 10-digit Mobile no.*"
               />
             </div>
-            <div className="form-input-4">
-              <p>Password</p>
+            <div className="form-input-5">
+              <p>One Time Password</p>
               <input
                 type="password"
                 name="password"
-                placeholder="Enter Your Password*"
+                placeholder="Enter 6-digit OTP*"
               />
             </div>
-            <div className="form-input-4">
-              <p>Confirm New Password</p>
-              <input
-                type="password"
-                name="password"
-                placeholder="Re-enter New Password*"
-              />
-            </div>
-            <div className="form-pass-login">
-              <button type="submit" id="login-btun" onClick={handleGenerateClick}>
-                Generate OTP
+            <div className="form-setpass-login">
+              <button type="submit" id="login-bttun">
+                  Set Password
               </button>
-              <h5 id="advocate-name">ADVOCATE LOGIN</h5>
+              <h5 id="advocatee-name">ADVOCATE LOGIN</h5>
               </div>
             </div>
           </form>
         </div>
-        </>
-        )}
       </div>
+
   );
 };
 
-export default Newpassword;
+export default Setpassword;
