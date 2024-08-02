@@ -66,7 +66,7 @@ const Newpassword = () => {
                 placeholder="Re-enter New Password*"
               />
             </div>
-            <div className="form-link-login">
+            <div className="form-pass-login">
               <button type="submit" id="login-btun">
                 Generate OTP
               </button>
