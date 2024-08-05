@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Setpassword.css';
+import Successpassword from "./Successpassword";
 
 
 const Setpassword = () => {
   const [isActive, setIsActive] = useState(null);
-  
+  const [showSuccesspassword, setShowSuccesspassword] = useState(false);
+
+
+
   const handleloginClick = () => {
     setIsActive("login");
   };
@@ -14,8 +18,18 @@ const Setpassword = () => {
     setIsActive("register");
   };
 
+  
+  const handlePasswordClick = () => {
+    setShowSuccesspassword(true);
+  };
+
+
   return (
       <div id="login-register-form">
+          {showSuccesspassword ?  (
+           <Successpassword />
+        ) : (
+         <> 
         <div className="login-form-container-5">
           <form>
             <div className="form-header-5">
@@ -59,7 +73,7 @@ const Setpassword = () => {
               />
             </div>
             <div className="form-setpass-login">
-              <button type="submit" id="login-bttun">
+              <button type="submit" id="login-bttun" onClick={handlePasswordClick}>
                   Set Password
               </button>
               <h5 id="advocatee-name">ADVOCATE LOGIN</h5>
@@ -67,8 +81,9 @@ const Setpassword = () => {
             </div>
           </form>
         </div>
+        </>
+        )}
       </div>
-
   );
 };
 
