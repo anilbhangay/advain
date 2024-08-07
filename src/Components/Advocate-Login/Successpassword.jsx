@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Successpassword';
+import './Successpassword.css';
 
 
 const  Successpassword = () => {
